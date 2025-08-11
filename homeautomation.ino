@@ -1,7 +1,9 @@
+// by bhushan patil
+// change blynk id Credentials
 // 🔹 Blynk Config
-#define BLYNK_TEMPLATE_ID "TMPL3tM6WIeQN"
-#define BLYNK_TEMPLATE_NAME "home auto"
-#define BLYNK_AUTH_TOKEN "vVhnEa1m22amT7xVpUkeSsZnVpuA7DE7"
+#define BLYNK_TEMPLATE_ID "your template id"
+#define BLYNK_TEMPLATE_NAME "your template name"
+#define BLYNK_AUTH_TOKEN "your authentication"
 #define BLYNK_PRINT Serial
 
 // 🔹 Libraries
@@ -13,8 +15,8 @@
 BlynkTimer timer;
 
 // 🔹 WiFi Credentials
-char ssid[] = "Airtel_Mauli";
-char pass[] = "sham@3015";
+char ssid[] = " wifi name ";
+char pass[] = " password ";
 
 // 🔹 GPIO Definitions
 #define RELAY_1 D1
@@ -147,3 +149,4 @@ void loop() {
   Blynk.run();    // works only when connected
   timer.run();    // always runs
 }
+
